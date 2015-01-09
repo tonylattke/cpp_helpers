@@ -30,11 +30,15 @@ int main() {
 	int red 	= 0xFF0000;
 	int green 	= 0x00FF00;
 	int blue	= 0x0000FF;
-
 	cout << "Hexadecimal code of:\nRed is: " << hex << red << "\nGreen is: " << green << "\nBlue is: " << blue << "\n";
 	// Use Decimal  dec
 	// Use Octal 	oct
 
+	// Print text with multiline string
+	cout << "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
+Phasellus mattis ac tortor sed fringilla. Etiam aliquam\
+turpis sit amet nisi molestie, nec accumsan massa tempus\n";
+
 	return 0;
-	
+
 }
