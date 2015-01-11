@@ -4,6 +4,7 @@
 #include <string>
 #include <array>
 #include <list>
+#include <map>
 
 using namespace std;
 
@@ -123,6 +124,35 @@ int main() {
 
 	// Sort list
 	b->sort();
+
+	/*************************************** Dictionary ********************************/
+
+	// Empty dictionary
+	map<string,string>* dictionary = new map<string,string>();
+
+	(*dictionary)["a"] = "Alice";
+	(*dictionary)["e"] = "Erick";
+	(*dictionary)["i"] = "Isaac";
+	(*dictionary)["o"] = "Oscar";
+	(*dictionary)["u"] = "Ursula";
+
+	// Print content
+	map<string,string>::iterator it 	= dictionary->begin();
+	map<string,string>::iterator end2	= dictionary->end();
+	while (it != end2) {
+		cout << it->first << " => " << it->second << endl;
+		++it;
+	}
+		
+	// Access (must check)
+	// map<string,string>::iterator it2 = dictionary->find("i");
+	// it2->second;
+
+	// Erase element by key (must check)
+	// dictionary->find("i");
+
+	// Number of elements
+	cout << dictionary->size() << endl;
 
 	/********************************* Arithmetic Conversions **************************/
 
