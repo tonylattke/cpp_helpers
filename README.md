@@ -10,3 +10,4 @@ Run file and interact:
 | --------------------- |------------------------------------------------------------- |
 | 0_hello_world.cpp 		| - Hello world to C++ |
 | 1_variables.cpp			| - Using variables |
+| 2_data_structures.cpp		| - Using basic data structures (tuples, pointers, array, list). Compile using flag: -std=c++11 | 
