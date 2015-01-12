@@ -11,8 +11,7 @@ Run file and interact:
 | 0_hello_world.cpp 		| - Hello world to C++ |
 | 1_variables.cpp			| - Using variables |
 | 2_data_structures.cpp		| - Using basic data structures (tuples, pointers, array, list, map). Compile using flag: -std=c++11 |
-| 3_conditionals.cpp		| - Using if |
-| 4_loops.cpp				| - Using loops (While, do and For) |
+| 3_conditionals.cpp		| - Using if and switch-case |
 | 4_loops.cpp				| - Using loops (While, do and For) |
 | 5_functions_methods.cpp 	| - Using functions and methods |
 | 6_classes.cpp 			| - Create Enumeration, Classes and Inheritance |

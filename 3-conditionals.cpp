@@ -38,6 +38,20 @@ int main() {
 		cout << "It\'s not Tony or Enrique\n";
 	}
 
+	// switch .. case ..
+	int value = 23;
+	switch ( value ) {
+		case 32:
+			cout << "32\n";
+			break;
+		case 43:
+			cout << "42\n";
+			break;
+		default:
+			cout << "Other\n";
+			break;
+	}
+
 	return 0;
 
 }

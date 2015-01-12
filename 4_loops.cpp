@@ -13,7 +13,7 @@ int main() {
 		i++; // i += 1; also works
 	}
 
-	// // While with function break
+	// While with function break
 	cout << "While with break\n";
 	i = 5;
 	int result = 1;

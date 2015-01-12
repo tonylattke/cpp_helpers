@@ -3,12 +3,12 @@
 
 using namespace std;
 
-/************************* Example 1 - Create a function and using *********************/
+/**************************** Example 1 - Create a function  ***************************/
 
 // Even or not
 // @number : Number to decide
 // @return : True if the number is even, otherwise False
-int even(int number){
+bool even(int number){
 	return number % 2 == 0;
 }
 
@@ -48,7 +48,7 @@ int main(int argc, char *argv[]) {
 	// Testing Function even
 	int j;
 	for (j = 0; j < 10; ++j) {
-		if (even(j) != 0) {
+		if (even(j)) {
 			cout << j << " - Even\n";
 		} else {
 			cout << j << " - Odd\n";
