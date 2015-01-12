@@ -20,7 +20,7 @@ int main() {
 	// Using Floating point numbers
 	float celcius   = 0;
 	float farenheit = 32 + celcius*(9.0/5);
-	cout << celcius << " Celcius are " << farenheit << " Farenheit grades\n";	
+	cout << celcius << " Celcius are " << farenheit << " Farenheit grades\n";
 
 	// Using Double floating point numbers with fixed amount digits of the right
 	// Only the first 10 first digits of phi will be showed precision 10
@@ -80,6 +80,10 @@ turpis sit amet nisi molestie, nec accumsan massa tempus\n";
 	string s_bar("Works"); // Just other string declaration way
 	string s_baz = s_foo + s_bar;
 	cout << s_baz << endl;
+
+	// String to char*
+	char* name = new char(s_baz.length()+1);
+	strcpy(name,s_baz.c_str());
 
 	// Simple character
 	char c_foo = 'T';

@@ -12,3 +12,4 @@ Run file and interact:
 | 1_variables.cpp			| - Using variables |
 | 2_data_structures.cpp		| - Using basic data structures (tuples, pointers, array, list, map). Compile using flag: -std=c++11 |
 | 3_conditionals.cpp		| - Using if |
+| 4_loops.cpp				| - Using loops (While, do and For) |
