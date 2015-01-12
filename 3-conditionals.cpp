@@ -7,16 +7,16 @@ int main() {
 
 	// Commpare Values
 	int aux = 23;
-	int equal 			= aux == 42;
-	int not_equal 		= aux != 42;
+	bool equal 			= aux == 42;
+	bool not_equal 		= aux != 42;
 
-	int less_than 		= aux < 42;
-	int more_than 		= aux > 42;
-	int less_equal_than	= aux <= 42;
-	int more_equal_than	= aux >= 42;
+	bool less_than 		= aux < 42;
+	bool more_than 		= aux > 42;
+	bool less_equal_than= aux <= 42;
+	bool more_equal_than= aux >= 42;
 
-	int operator_or		= aux < 23 || aux > 42;
-	int operator_and	= aux < 23 && aux > 42;	
+	bool operator_or	= aux < 23 || aux > 42;
+	bool operator_and	= aux < 23 && aux > 42;	
 	
 	// If .. then .. else ..
 	int number = 23;
