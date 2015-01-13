@@ -20,8 +20,9 @@ Run file and interact:
 | 9_value_transform.cpp		| - Value to string and string to value functions |
 | persons.h					| - Class created to be exported - Declaration |
 | person.cpp				| - Class created to be exported - Implementation |
+| hero.h					| - Class Template |
 | 10_importing_files.cpp	| - Import file |
 
 
 Compile the last one using:
-g++ person.h person.cpp 10_importing_files.cpp -o test
+g++ hero.h person.h person.cpp 10_importing_files.cpp -o test -std=c++11

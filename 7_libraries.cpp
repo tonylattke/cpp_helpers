@@ -7,6 +7,7 @@
 using namespace std;
 
 int main() {
+	
 	/************************************** Datetime ***********************************/
 
 	// Now
@@ -19,7 +20,7 @@ int main() {
 	time_t two_hours  = c_time - 2 * 60 * 60;
 	cout << ctime(&two_hours);
 
-	// /**************************************  Math **************************************/
+	/**************************************  Math **************************************/
 
 	// Elemental numbers
 	float aux_pi = M_PI;
@@ -28,7 +29,7 @@ int main() {
 
 	int x = 10;
 
-	// //  It's a number
+	//  It's a number
 	if (isdigit(x) == 0) {
 		cout << "Is a number\n";
 	} else {
@@ -36,9 +37,9 @@ int main() {
 	}
 	// We also have isalpha
 
-	float res_round = round(10);	// Round x
+	float res_round = round(10);	// Round 10
 
-	float res_exp = exp(10); 		// e to the power of x
+	float res_exp = exp(10); 		// e to the power of 10
 
 	float res_log = log(10); 		// Default base e - log10 for logarithm base 10
 
@@ -48,7 +49,7 @@ int main() {
 	float res_cos = cos(10);
 	float res_tan = tan(10);
 
-	// /************************************** Random *************************************/
+	/************************************** Random *************************************/
 
 	srand(time(0));
 	int rand_value = rand();  // Number between 0 and RAND_MAX

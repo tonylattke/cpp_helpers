@@ -5,7 +5,7 @@ using namespace std;
 
 /************************************* Enumeration *************************************/ 
 
-enum Nationality { German, American, Venezuelan };
+enum Nationality { GERMAN, AMERICAN, VENEZUELAN };
 
 /************************************ Creating Class ***********************************/
 
@@ -71,6 +71,10 @@ Civil::Civil(string a, unsigned int b, string c){
 }
 
 int main() {
+
+	// Use enumeration
+	Nationality aux0 = GERMAN;
+	// You can also enumeration values of the same class compare
 	
 	// Create Color
 	Color* aux = new Color();
